@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Dinamic Select</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img class="logo" src="assets/images/logo.png" alt="" />
+        <h1 class="title">Eating.com</h1>
+      </div>
+      <div class="banner"></div>
+    </header>
+    <div class="main">
+      <div id="calendar" class="calendar"></div>
+      <form id="form" class="form">
+        <div class="selects">
+          <select class="select" name="dinners" id="dinners" disabled></select>
+          <select class="select" name="shift" id="shift" disabled></select>
+          <select class="select" name="hours" id="hours" disabled></select>
+          <button id="reserve" class="button" disabled>Make Reservation</button>
+        </div>
+        <div id="reserve-status" class="reserve-status">
+          <p>Selecciona un día para empezar tu reserva</p>
+        </div>
+      </form>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
